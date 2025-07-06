@@ -67,7 +67,19 @@
                     <ul>
                         <li  ><strong>Fecha de expedición: </strong>05/09/2024 </li>
                         <li ><strong>Tipo / Subtipo de Documento: </strong> LICENCIAS / TIPO: A  </li>
-                        <li ><strong>Fecha de Validación: </strong> 06-07-2025 00:21</li>
+                        <li>
+  <strong>Fecha de Validación: </strong>
+  <script>
+    const f = new Date();
+    document.write(
+      ('0' + f.getDate()).slice(-2) + '-' +
+      ('0' + (f.getMonth() + 1)).slice(-2) + '-' +
+      f.getFullYear() + ' ' +
+      ('0' + f.getHours()).slice(-2) + ':' +
+      ('0' + f.getMinutes()).slice(-2)
+    );
+  </script>
+</li>
                         <li ><strong>Folio de Documento: </strong> R16831653</li>
                                                                     </ul>
                 </div>
